@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+background-color: #000000;
+    margin: 80px 40px;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  .title {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 30px;
+    padding: 0;
+    color: gold;
+	text-shadow: 0 0 15px #9d822b;
+    font-weight: bold;
+  }
+  .price {
+    font-weight: normal;
+    font-size: 32px;
+    margin: 40px 0 80px 0;
+    padding: 0;
+    color: gold;
+	text-shadow: 0 0 15px #9d822b;
+    font-weight: bold;
+  }
+
+  .p_mainwords {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(255, 247, 213);
+	text-shadow: 0 0 40px #9d822b;
+  }
+
+  button1{
+	text-decoration: none;
+	background: #BF9F4C;
+	color: rgb(0, 0, 0);
+	position: relative;
+	overflow: hidden;
+	padding: 15px 30px;
+    margin-top: 12%;
+}
+button1:hover {
+	box-shadow: 1px 1px 25px 10px #BF9F4C;
+  }
+
+  button2{
+	text-decoration: none;
+	background: #BF9F4C;
+	color: rgb(0, 0, 0);
+	position: relative;
+	overflow: hidden;
+	padding: 15px 40px;
+    margin-left: 20px;
+}
+button2:hover {
+	box-shadow: 1px 1px 25px 10px #BF9F4C;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .columnimg {
+    grid-column: 1/6;
+  }
+  
+  .columncontent {
+    grid-column: 6/11;
+
+  }
+  
+  /* -------------------------- */
+  
+  img {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    
+  }
+  
+  .columnimg img {
+    
+    height: 420px;
+  }
+  
+  .photo img {
+    height: 100px;
+    margin-top: -70px;
+    margin-left: -10%;
+  }
+  
+  .photoselect {
+    border: 3px solid #BF9F4C;
+  }
+  
+  /* -------------------------- */
+  
+  .allinfo {
+    grid-column: 1/11;
+    margin-top: 50px;
+  }
+  
+  .tabs {
+    display: flex;
+    background-color: #000000;
+    color: aliceblue;
+    border-radius: 50px 20px 0 0;
+  }
+  
+  .tabs:first-child {
+    padding-left: 15px;
+  }
+  
+  .info {
+    background-color: #000000;
+
+    color: aliceblue;
+    padding: 30px;
+    border-radius: 0 0 20px 20px;
+
+  }
+  
+  .p_words {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    width: 80%;
+  }
+  
+  button {
+    border-radius:20px;
+    border: 3px solid #BF9F4C;
+    background-color: #000000;
+    color: aliceblue;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .butselect {
+    background-color: #000000;
+    color: aliceblue;
+  }
+  .nonvisable {
+    display: none;
+  }
